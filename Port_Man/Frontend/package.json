@@ -1,0 +1,68 @@
+{
+  "name": "stocks-trader",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.15",
+    "@mui/material": "^5.10.15",
+    "@mui/x-data-grid": "^5.17.12",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-replace": "^6.0.1",
+    "@svgr/webpack": "^8.1.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.1",
+    "formik": "^2.2.9",
+    "postcss": "^8.4.47",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-gauge-chart": "^0.4.1",
+    "react-pro-sidebar": "^1.0.0-alpha.7",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.4.4",
+    "react-scripts": "^5.0.1",
+    "react-ts-tradingview-widgets": "^1.2.5",
+    "recharts": "^2.1.16",
+    "resolve-url-loader": "^5.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass": "^1.56.1",
+    "styled-components": "^5.3.6",
+    "svgo": "^3.3.2",
+    "web-vitals": "^2.1.4",
+    "workbox-build": "^7.1.1",
+    "workbox-webpack-plugin": "^7.1.0",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression": "^7.25.7",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}
